@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 25%;
+        }
+        
+        /* The Close Button */
+        .close {
+          color: #aaaaaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        </style>
+</head>
+
+<body>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div id="modal-content" class="modal-content">
+          <span class="close">&times;</span>
+        </div>
+      
+      </div>
+    <header class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="./img/logo1.png" alt="#logo">
+            </a>
+        </div>
+        <div>
+            <nav class="menu">
+                <ul class="menu-sub">
+                    <li class="menu-1">
+                        <a href="#">Blog</a>
+
+                    </li>
+                    <li class="menu-1"><a href="#">Review</a></li>
+                    <li class="menu-1"><a href="https://www.ivivu.com/">Booking</a></li>
+                    <li class="sg-lg menu-1"><a href="#">Signup</a></li>
+                    <li id="loginBtn" class="sg-lg menu-1">Login</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <form action="#" method="get" role="search" class="search-map">
+            <input class="search-map-1" name="yup" placeholder="Nhập nơi bạn muốn tìm..." type="search" />
+            <div>
+                <button class="but">
+                    <img src="https://2.bp.blogspot.com/-gbGF-74p-Vg/XreeMnvCFxI/AAAAAAAACPU/rilvcs2pnCErWgHAUe0ixgMly24xzmA0wCLcBGAsYHQ/s640/i-search-mini.png" alt="i-search-mini">
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 18px;
+    font-family: sans-serif, "roboto";
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    color: #fff;
+}
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#form-login {
+    background: rgba(17, 50, 42, 0.627);
+    max-width: 400px;
+    flex-grow: 1;
+    padding: 30px 30px 40px 30px;
+    border: 1px solid rgba(255, 0, 0, 0.8);
+    border-radius: 8px;
+}
+.form-head {
+    text-align: center;
+    margin: 24px;
+    color: #16a085;
+}
+.login-1 {
+    margin: 14px 0px 18px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+}
+.login-1 i {
+    color: #fff;
+    margin-right: 10px;
+}
+#eye {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 0;
+    padding-right: 0;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.eml {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    flex-grow: 2;
+}
+.form-submit {
+    background: transparent;
+    width: 100%;
+    margin: 24px 0px 24px 0px;
+    border: 1px solid #fff;
+    padding: 10px 0px 10px;
+    color: #fff;
+}
+.signup {
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 24px;
+    color: #3498db;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px 0px 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #c1c1c1;
+}
+.logo a img {
+    width: 220px;
+    height: 50px;
+}
+.menu-sub {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    flex-direction: row;
+}
+.menu-1 {
+    margin: 0 32px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.sg-lg {
+    background-color: #7cd5d5;
+}
+.sg-lg:hover {
+    background-color: #ffcdcd;
+}
+.search-map {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.search-map-1 {
+    height: 24px;
+    padding: 12px;
+    border: 0;
+    border-radius: 0;
+}
+.but {
+    position: absolute;
+}
