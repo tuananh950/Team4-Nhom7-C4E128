@@ -118,6 +118,7 @@ ul {
 .but {
     position: absolute;
 }
+<<<<<<< HEAD
 
 <!-- footer -->
 footer {
@@ -169,4 +170,89 @@ body {
     content: '';
     display: block;
     clear: both;
+=======
+.body {
+    display: flex;
+    flex-direction:row;
+    margin-left: 50px;
+   justify-content:flex-start;
+}
+.sidebar {
+    width: 240px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side {
+    width: 200px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-size: cover;
+}
+
+.one {
+    background-image: url('https://dautuplus.net/wp-content/uploads/2021/04/am-thuc-viet-700-x-464.jpg');
+    
+}
+.two{
+    background-image: url('http://reviewdulich365.com/wp-content/uploads/2019/03/toppas-eco.jpg');
+    
+}
+.three{
+    background-image: url('http://reviewdulich365.com/wp-content/uploads/2020/01/82434552_2051272421685485_1375388329364684800_o.jpg');
+}
+.four{
+    background-image: url('https://res.klook.com/image/upload/q_85/c_fill,w_1360/v1627359065/blog/qcdjhliq5gppiibpqzz2.webp');
+}
+.main {
+    width: 900px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 200px;
+}
+
+.item {
+    border-style: solid;
+    border-width: 5px;
+    width: 250px;
+    height: 350px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-size: cover;
+}
+.first{
+    background-image: url('https://dulichkhampha24.com/wp-content/uploads/2019/08/nen-du-lich-sapa-may-ngay-4.jpg');
+}
+.second{
+    background-image: url('https://statics.vinpearl.com/du-lich-ha-long_1626080677.jpg');
+}
+.third{
+    background-image: url('https://dulichchat.com/wp-content/uploads/2019/09/du-lich-moc-chau-dulichchat.jpg');
+}
+.fourth{
+    background-image: url('https://cdnmedia.baotintuc.vn/Upload/a7srThwxbojBCucvUWgnxA/files/2020/09/20/giao-thong/Ba-Na-Hills-200920201.jpg');
+}
+.fifth{
+    background-image: url('https://baokhanhhoa.vn/dataimages/202202//original/images5492543_NR1.jpg');
+}
+.sixth{
+    background-image: url('http://divui.com/blog/wp-content/uploads/2016/12/da-lat-1.jpg');
+}
+.seventh{
+    background-image: url('https://halotravel.vn/wp-content/uploads/2020/12/du-lich-sai-gon-1-ngay-i-e1608112204661.jpg');
+}
+.eighth{
+    background-image: url('https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/04/kinh-nghiem-du-lich-quy-nhon-binh-dinh-bai-bien-Ky-Co-1.jpg');
+}
+.nineth{
+    background-image: url('https://www.limo24h.vn/wp-content/uploads/2020/02/vi-sao-nen-du-lich-phu-quoc.jpg');
+>>>>>>> e405e7808e7bc6611867d41d83837ed848ab696a
 }
